@@ -1,0 +1,28 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=10:13:62:8D:B5:55:C3:77:F4:7C:2B:57:F0:58:79:5A:F2:4F:0D:3E%3Bapps.projectegy.sanay3ytrend.ui.activities
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    apps.projectegy.sanay3ytrend.ui.activities
+
+    SHA-1 certificate fingerprint:
+    10:13:62:8D:B5:55:C3:77:F4:7C:2B:57:F0:58:79:5A:F2:4F:0D:3E
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+<!--
+    //info@sms.com.eg
+-->
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDR45xVCCyl8qLGg7tnQZcsAm4DGrhypFY</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#00689F</color>
+    <color name="colorPrimaryDark">#00689F</color>
+    <color name="colorAccent">#00689F</color>
+
+    <color name="yellow">#F8A815</color>
+    <color name="timestamp">#777</color>
+    <color name="gray">#707070</color>
+    <color name="gold">#C5982D</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="backgroundRos">#EAECEE</color>
+    <color name="light_accent">#FDF6E3</color>
+
+    <color name="txt_gray">#c8c7cc</color>
+    <color name="gray_divider">#EFEFF4</color>
+    <color name="gray_back">#F7F7F7</color>
+
+    <color name="botPrimary">#7180AC</color>
+    <color name="botSecondary">#2B4570</color>
+    <color name="responseColor">#011936</color>
+    <color name="inputColor">#F4FFFD</color>
+    <color name="fabIconColor">#FFF</color>
+    <color name="white_gray">#FAFAFA</color>
+
+
+</resources>

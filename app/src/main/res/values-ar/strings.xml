@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">صنايعي ترند</string>
+    <string name="done">حسناً</string>
+    <string name="ok">موافق</string>
+    <string name="previous">السابق</string>
+    <string name="lets_start">لنبدأ</string>
+    <string name="delivery_online">توصيل طلبك بضغطة</string>
+    <string name="shopping_online">تسوق اون لاين</string>
+    <string name="shop_around_the_world_online">تسوق </string>
+    <string name="sign_up">انشاء حساب</string>
+    <string name="password">كلمة المرور</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="forget_password">نسيت كلمة المرور</string>
+    <string name="or">او</string>
+    <string name="create_an_account">انشاء حساب</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="phone_requires">رقم الهاتف مطلوب</string>
+    <string name="phone_invalid">رقم الهاتف غير صحيح</string>
+    <string name="next">التالى</string>
+    <string name="pls_check_connection">من فضلك تاكد من الاتصال بالانترنت</string>
+    <string name="Continue">الاستمرار</string>
+    <string name="forget_password_txt">نسيت كلمة المرور</string>
+    <string name="forgot_pass_desc">نحتاج فقط إلى هاتفك المسجل لإعادة تعيين كلمة المرور الخاصة بك</string>
+    <string name="verify_desc">من فضلك ادخل الكود المرسل الي رقم هاتفك</string>
+    <string name="code_error">الكود مطلوب</string>
+    <string name="account_verified_successfully">تم تفعيل حسابك بنجاح</string>
+
+    <string name="name_error">الاسم مطلوب</string>
+    <string name="phone_error">رقم الهاتف مطلوب</string>
+    <string name="address_error">العنوان مطلوب</string>
+    <string name="confirm_error">تأكيد كلمة المرور مطلوبة</string>
+    <string name="img_error">الصورة مطلوبة</string>
+    <string name="Password_does_not_match">كلمة المرور غير متطابقتان</string>
+    <string name="account_created_successfully">تم انشاء حسابك بنجاح</string>
+
+
+    <string name="phoneNumber_error">رقم الهاتف مطلوب</string>
+    <string name="email_error">البريد الالكتروني مطلوب</string>
+    <string name="email_invalid">البريد الالكتروني غير صحيح</string>
+    <string name="password_error">كلمة المرور مطلوبة</string>
+    <string name="Back">الرجوع</string>
+    <string name="choose_way">اختيار طريقة الرفع</string>
+    <string name="cancel">الغاء</string>
+    <string name="photo_album">معرض الصور</string>
+    <string name="take_a_picture">التقاط صورة</string>
+    <string name="reset_password">اعادة كلمة المرور</string>
+    <string name="New_Password_sent_successfully">تم ارسال كلمة المرور الجديدة بنجاح</string>
+    <string name="default_error">حاول مرة اخري في وقت لاحق</string>
+
+    <string name="phone_exists_before">رقم الهاتف موجود من قبل</string>
+    <string name="failed_to_create_user">فشل في انشاء الحساب</string>
+    <string name="email_exists_before">البريد الالكتوني موجود من قبل</string>
+    <string name="failed_to_upload_image">فشل في رفع الصورة</string>
+    <string name="Wrong_Phone_Or_Password">رقم الهاتف او كلمة المرور غير صحيح</string>
+    <string name="Account_Not_Verified">حسابك غير مفعل</string>
+    <string name="Wrong_Verification_Code">كود غير صحيح</string>
+    <string name="password_invalid">كلمة المرور غير صحيحة</string>
+    <string name="User_Not_Found">المستخدم غير موجود</string>
+    <string name="Message_Is_Required">الرسالة مطلوبة</string>
+    <string name="code_length">الكود ينبغي ان لا يقل عن 4 ارقام</string>
+
+    <string name="i_dont_have_an_account">ليس لدي حساب</string>
+    <string name="register">انشاء حساب</string>
+    <string name="name">الاسم</string>
+    <string name="i_have_an_account">لدي حساب</string>
+    <string name="send_the_confirmation_code">أرسل رمز التأكيد</string>
+    <string name="enter_the_verification_code_sent_on">أدخل رمز التحقق المرسل اليك علي رقم هاتفك</string>
+    <string name="i_remembered_the_password">تذكرت كلمة المرور</string>
+    <string name="confirm">تأكيد</string>
+
+    <string name="category">الاقسام</string>
+
+    <string name="create_account">انشاء حساب جديد</string>
+    <string name="login_with">الدخول عن طريق</string>
+    <string name="forgot_password">نسيت كلمه السر</string>
+    <string name="we_just_need_your_registered_phone_to_send_your_password_reset_instruction">قم بكتابة رقم الهاتف لارسال تعليمات استعادة كلمه السر</string>
+    <string name="full_name">الاسم بالكامل</string>
+    <string name="confirm_password">تأكيد كلمه السر</string>
+    <string name="create">انشاء</string>
+    <string name="area">المنطقة</string>
+    <string name="verification">كود التفعيل</string>
+    <string name="please_enter_the_code_we_sent_to_your_phone_number">قم بكتابة رمز التفعيل المُرسل الى رقم هاتفك</string>
+    <string name="verify">تفعيل</string>
+    <string name="resend_code">اعاده ارسال الكود</string>
+
+    <string name="select_city">اختار المدينة</string>
+    <string name="country_is_required">الدولة مطلوبة</string>
+    <string name="city_is_required">المدينة مطلوبة</string>
+    <string name="area_is_required">المنطقة مطلوبة</string>
+    <string name="Please_select_Country_first">من فضلك اختر الدولة اولا</string>
+    <string name="Please_select_city_first">من فضلك اخر المدينة اولا</string>
+    <string name="change_area">تغيير المنطقة</string>
+    <string name="area_updated_successfully">تم تغيير المنطقة بنجاح</string>
+    <string name="please_select_country_first">من فضلك اختر الدولة اولا</string>
+    <string name="select_country">اختار الدولة</string>
+    <string name="send">ارسال</string>
+    <string name="confirmation_code_will_be_sent_to_your_mobile_number_enter_the_activation_code">كود التفعيل سيرسل لك علي هاتفك</string>
+    <string name="please_select_city_first">من فضلك اختر المدينة اولا</string>
+    <string name="select_department">اختار القسم</string>
+    <string name="type">النوع</string>
+    <string name="worker">مقدم الخدمة</string>
+    <string name="user">عميل</string>
+    <string name="address">العنوان</string>
+    <string name="click_ok">اضغط موافق</string>
+    <string name="select_my_current">اختار الموقع الحالي</string>
+    <string name="loading">تحميل…</string>
+    <string name="choose_image_method">اختار طريقة التحميل</string>
+    <string name="please_select_department_first">من فضلك اختار القسم اولا</string>
+    <string name="sponsor_phone_number">رقم هاتف الراعي</string>
+    <string name="account_created_successfully_and_waiting_for_confirmation">تم انشاء حسابك بنجاح وفي انتظار الموافقة</string>
+    <string name="transfer_receipt">صورة الحوالة</string>
+    <string name="see_and_earn">شاهد واكسب</string>
+    <string name="no_ads_available">لا يوجد اعلانات حاليا</string>
+    <string name="sec"> ثانية</string>
+    <string name="waiting_for">انتظر </string>
+    <string name="no_workers_found">لا يوجد بيانات</string>
+    <string name="settings">الاعدادات</string>
+    <string name="profile">الصفحة الشخصية</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="wallet">المحفظة</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="rate_app">تقييم التطبيق</string>
+    <string name="share_app">شارك التطبيق</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="let_me_recomment">ارشج لك استخدام هذا التطبيق</string>
+    <string name="english">English</string>
+    <string name="ar">عربي</string>
+    <string name="current_balance">الرصيد الحالي</string>
+    <string name="le">جنية</string>
+    <string name="wallet_details">تفاصيل المحفظة</string>
+    <string name="old_password">كلمة المرور القديمة</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="save">حفظ</string>
+
+    <string name="password_changed_Successfully">تم تغيير كلمة المرور بنجاح</string>
+    <string name="old_password_is_required">كلمة المرور القديمة مطلوبة</string>
+    <string name="new_password_is_required">كلمة المرور الجديدة مطلوبة</string>
+    <string name="confirm_password_is_required">تاكيد كلمة المرور مطلوب</string>
+    <string name="password_Not_match">كلمة المرور غير متطابقتان</string>
+    <string name="facebook_link">رابط الفيس بوك</string>
+    <string name="twitter_link">رابط تويتر</string>
+
+    <string name="hint_trans">تحويل فودافون كاش علي الرقم ده 01025601972   او  رصيد عادي اورنج   01275998580</string>
+    <string name="no_workers">لا يوجد عمال</string>
+    <string name="on_map">علي الخريطة</string>
+
+    <string name="My_Refer_Link">My Refer Link</string>
+    <string name="use_this_link">Use This Link</string>
+    <string name="TheModelIsInvalid">تاكد من بياناتك</string>
+    <string name="TransferImageIsRequired">صورة الحوالة مطلوبة</string>
+    <string name="TheUserNotExistOrDeleted">المستخدم غير موجود</string>
+    <string name="UserIsDeleted">المستخدم تم مسحه</string>
+    <string name="UserIsPending">المستخدم قيد المراجعة</string>
+    <string name="UserIsRejected">المستخدم تم الغاءه</string>
+    <string name="ThisPhoneNumberNotExist">الهاتف موجود مسبقا</string>
+    <string name="YourMoneyInTheWalletNotEnough">رصيدك غير كافي</string>
+    <string name="TheHelperPhoneNumberNotExist">رقم هاتف الراعي غير صحيح</string>
+    <string name="TheUsernameOrPasswordIsIncorrect">يوجد خطأ في كلمة المرور او رقم الهاتف</string>
+    <string name="TheOldPasswordIsInCorrect">كلمة المرور القديمة غير صحيحة</string>
+    <string name="TheVerificationCodeUnvalid">كود التفعيل غير صحيح</string>
+    <string name="TheCountryNotExistOrDeleted">الدولة غير متاحة حاليا</string>
+    <string name="TheCityNotExistOrDeleted">المدينة غير متاحة حاليا</string>
+    <string name="TheDepartmentNotExistOrDeleted">القسم غير متاح حاليا</string>
+    <string name="whats">رقم الواتساب</string>
+    <string name="account_updated_successfully">تم تحديث بياناتك بنجاح</string>
+
+</resources>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/login_top" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fillViewport="true"
+        android:focusableInTouchMode="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_25sdp"
+                android:background="@drawable/white_radius_shape"
+                android:elevation="@dimen/_18sdp"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_10sdp">
+
+
+                <apps.projectegy.sanay3ytrend.utils.BoldTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/register"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_13ssp"
+                    android:visibility="gone" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/upload_img"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_120sdp"
+                    android:src="@drawable/ic_upload_img" />
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:text="@string/name"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11ssp"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp">
+
+                    <apps.projectegy.sanay3ytrend.utils.RegularEditText
+                        android:id="@+id/et_username"
+                        style="@style/edit_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:cursorVisible="true"
+                        android:drawableStart="@drawable/ic_account"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="@string/name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <View
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="1dp"
+                        android:visibility="gone" />
+
+                    <apps.projectegy.sanay3ytrend.utils.RegularEditText
+                        android:id="@+id/et_lastname"
+                        style="@style/edit_text_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:cursorVisible="true"
+                        android:drawableStart="@drawable/ic_account"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="@string/name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/_10ssp"
+                        android:visibility="gone" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:text="@string/email"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11ssp"
+                    android:visibility="gone" />
+
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:text="@string/phone"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11ssp"
+                    android:visibility="gone" />
+
+                <apps.projectegy.sanay3ytrend.utils.RegularEditText
+                    android:id="@+id/et_phone"
+                    style="@style/edit_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:cursorVisible="true"
+                    android:drawableStart="@drawable/ic_phone"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/phone"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/_10ssp" />
+
+                <apps.projectegy.sanay3ytrend.utils.RegularEditText
+                    android:id="@+id/et_email"
+                    style="@style/edit_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:cursorVisible="true"
+                    android:drawableStart="@drawable/ic_email"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/email"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/_10ssp"
+                    android:visibility="gone" />
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:id="@+id/txt_depart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:visibility="gone"
+                    android:background="@drawable/blue_radius_shape"
+                    android:drawableStart="@drawable/ic_department"
+                    android:drawableEnd="@drawable/ic_drop_down_arrow"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/select_department"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11ssp"
+                    />
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:id="@+id/txt_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/blue_radius_shape"
+                    android:drawableStart="@drawable/ic_loc_main_color"
+                    android:drawableEnd="@drawable/ic_drop_down_arrow"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/select_country"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11ssp"
+
+                    />
+
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:id="@+id/txt_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/blue_radius_shape"
+                    android:drawableStart="@drawable/ic_loc_main_color"
+                    android:drawableEnd="@drawable/ic_drop_down_arrow"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/select_city"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_10ssp" />
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:id="@+id/et_Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/blue_radius_shape"
+                    android:drawableStart="@drawable/ic_loc_main_color"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/address"
+                    android:maxLines="1"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/_11ssp" />
+
+
+                <apps.projectegy.sanay3ytrend.utils.RegularEditText
+                    android:id="@+id/et_sponsorPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:background="@drawable/blue_radius_shape"
+                    android:visibility="gone"
+                    android:drawableStart="@drawable/ic_sponsor"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/sponsor_phone_number"
+                    android:maxLines="1"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/_11ssp" />
+
+
+                <apps.projectegy.sanay3ytrend.utils.RegularEditText
+                    android:id="@+id/et_password"
+                    style="@style/edit_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:cursorVisible="true"
+                    android:drawableStart="@drawable/ic_password"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/_10ssp" />
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:text="@string/password"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11ssp"
+                    android:visibility="gone" />
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:orientation="vertical">
+
+                    <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:text="@string/type"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11ssp"
+                        android:visibility="gone" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/radioUser"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:text="@string/user"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <RadioButton
+                            android:id="@+id/radioWorker"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/worker"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                    </RadioGroup>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/lin_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:visibility="gone"
+                    app:cardCornerRadius="@dimen/_2sdp"
+                    app:cardElevation="@dimen/_1sdp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/hint_trans"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_90sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            app:cardCornerRadius="@dimen/_2sdp"
+                            app:cardElevation="@dimen/_1sdp">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text="@string/transfer_receipt"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_10ssp" />
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_10sdp">
+
+                                    <androidx.appcompat.widget.AppCompatImageView
+                                        android:id="@+id/img_1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/btn_bg_gray_smooth_border_only"
+                                        android:scaleType="centerCrop" />
+
+                                    <androidx.appcompat.widget.AppCompatImageView
+                                        android:id="@+id/plus_1_img"
+                                        android:layout_width="@dimen/_15sdp"
+                                        android:layout_height="@dimen/_15sdp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="@dimen/_5sdp"
+                                        android:background="@color/white"
+                                        android:src="@drawable/ic_plus_black" />
+
+                                    <androidx.appcompat.widget.AppCompatImageView
+                                        android:id="@+id/delete_1_img"
+                                        android:layout_width="@dimen/_15sdp"
+                                        android:layout_height="@dimen/_15sdp"
+                                        android:layout_margin="@dimen/_5sdp"
+                                        android:background="@color/white"
+                                        android:src="@drawable/ic_delete_basket" />
+                                </FrameLayout>
+
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </androidx.cardview.widget.CardView>
+
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_30sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:background="@drawable/btn_bg_main_color_smooth_border"
+                    android:cursorVisible="true"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/_25sdp"
+                    android:paddingTop="@dimen/_7sdp"
+                    android:paddingEnd="@dimen/_25sdp"
+                    android:paddingBottom="@dimen/_7sdp"
+                    android:text="@string/register"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/txt_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <apps.projectegy.sanay3ytrend.utils.RegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/_3sdp"
+                    android:text="@string/i_have_an_account"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_11ssp" />
+
+                <apps.projectegy.sanay3ytrend.utils.BoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/_3sdp"
+                    android:text="@string/login"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_11ssp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/back_lin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            app:srcCompat="@drawable/ic_arrow_back"
+            tools:ignore="VectorDrawableCompat" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

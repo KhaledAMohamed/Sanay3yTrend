@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_220sdp"
+            android:scaleType="centerCrop"
+            tools:ignore="VectorDrawableCompat" />
+
+        <apps.projectegy.sanay3ytrend.utils.BoldTextView
+            android:id="@+id/welcome_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:gravity="center"
+            android:paddingStart="@dimen/_30sdp"
+            android:paddingEnd="@dimen/_30sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:text="Easily order your product"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_19ssp"
+            />
+
+        <apps.projectegy.sanay3ytrend.utils.RegularTextView
+            android:id="@+id/welcome_desc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:paddingStart="@dimen/_30sdp"
+            android:paddingEnd="@dimen/_30sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:text="Lorem Epsom is a virtual model that is placed in the designs to be presented to the customer to imagine how to put the texts in the designs, whether they are printed brochures or flyer designs, for example."
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_13ssp"
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

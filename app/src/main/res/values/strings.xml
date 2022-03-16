@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">Sanay3yTrend</string>
+    <string name="default_notification_channel_id" translatable="false">defaultNotificationId</string>
+    <string name="done">Done</string>
+    <string name="ok">OK</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="lets_start">Lets Start</string>
+    <string name="delivery_online">Delivery Online</string>
+    <string name="shopping_online">Shopping Online</string>
+    <string name="shop_around_the_world_online">Shop around the world Online</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="user_name">Username</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="or">OR</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="login">Login</string>
+    <string name="phone_requires">Phone Required</string>
+    <string name="phone_invalid">Invalid Phone Number</string>
+    <string name="pls_check_connection">Please Check Your Internet Connection And Try Again</string>
+    <string name="Continue">Continue</string>
+    <string name="forget_password_txt">Forgot Password</string>
+    <string name="forgot_pass_desc">We just need your registered Phone to send your password reset instruction</string>
+    <string name="verify_desc">Please enter the code we sent to your phone number</string>
+    <string name="code_error">Code is Required</string>
+    <string name="account_verified_successfully">Account Verified Successfully</string>
+
+    <string name="name_error">Name Is Required</string>
+    <string name="phone_error">Phone is Required</string>
+    <string name="address_error">Address is Required</string>
+    <string name="confirm_error">Confirm Password is Required</string>
+    <string name="img_error">Image is Required</string>
+    <string name="Password_does_not_match">Password does not match</string>
+    <string name="account_created_successfully">Your Account Created Successfully</string>
+
+    <string name="phoneNumber_error">Phone Number is Required</string>
+    <string name="email_error">Email is Required</string>
+    <string name="email_invalid">Email invalid</string>
+    <string name="password_error">Password is Required</string>
+    <string name="Back">Back</string>
+    <string name="choose_way">Choose Way</string>
+    <string name="cancel">Cancel</string>
+    <string name="photo_album">Photo Album</string>
+    <string name="take_a_picture">Take a Photo</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="New_Password_sent_successfully">New Password Sent Successfully</string>
+    <string name="default_error">Please Try Again Later</string>
+
+    <string name="phone_exists_before">Phone Exists Before</string>
+    <string name="failed_to_create_user">Failed To Create User</string>
+    <string name="email_exists_before">Email Exists Before</string>
+    <string name="failed_to_upload_image">Failed To Upload Image</string>
+    <string name="Wrong_Phone_Or_Password">Wrong Phone Or Password</string>
+    <string name="Account_Not_Verified">Account Not Verified</string>
+    <string name="Wrong_Verification_Code">Wrong Verification Code</string>
+    <string name="password_invalid">Password Invalid</string>
+    <string name="User_Not_Found">User Not Found</string>
+    <string name="Message_Is_Required">Message Is Required</string>
+    <string name="code_length">Code length must equal 4 letters</string>
+
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="profile_desc" translatable="false">Rowan Sebastian Atkinson CBE is an English actor,  comedian and screenwriter</string>
+    <string name="profile_title" translatable="false">Mr Bean</string>
+    <string name="posts" translatable="false">posts</string>
+    <string name="followers" translatable="false">followers</string>
+    <string name="following" translatable="false">following</string>
+    <string name="msg_error_unable_select_profile_pic" translatable="false">Unable to set profile image. Please try again!</string>
+    <string name="lbl_set_profile_photo" translatable="false">Set profile image</string>
+    <string name="lbl_take_camera_picture" translatable="false">Take a picture</string>
+    <string name="lbl_choose_from_gallery" translatable="false">Choose from gallery</string>
+    <string name="toast_image_intent_null" translatable="false">Image picker option is missing!</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="category">Category</string>
+
+    <string name="i_dont_have_an_account">I don\'t have an account</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="i_have_an_account">I have an account</string>
+    <string name="send_the_confirmation_code">Send the confirmation code</string>
+    <string name="enter_the_verification_code_sent_on">Enter the verification code sent on</string>
+    <string name="i_remembered_the_password">I remembered the password</string>
+    <string name="confirm">Confirm</string>
+    <string name="create_account">Create account</string>
+    <string name="login_with">Login with</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="we_just_need_your_registered_phone_to_send_your_password_reset_instruction">We need your registered phone to send your password reset instructions</string>
+    <string name="full_name">Full name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="create">Create</string>
+    <string name="area">Area</string>
+    <string name="verification">Verification</string>
+    <string name="please_enter_the_code_we_sent_to_your_phone_number">Please enter the code we sent to your phone number</string>
+    <string name="verify">Verify</string>
+    <string name="resend_code">Resend code</string>
+
+    <string name="select_city">Select city</string>
+    <string name="country_is_required">Country is required</string>
+    <string name="city_is_required">City is required</string>
+    <string name="area_is_required">Area is required</string>
+    <string name="Please_select_Country_first">Please select country first</string>
+    <string name="Please_select_city_first">Please select city first</string>
+    <string name="change_area">Change area</string>
+    <string name="area_updated_successfully">Area updated successfully</string>
+    <string name="please_select_country_first">please select country first</string>
+    <string name="select_country">Select country</string>
+    <string name="send">Send</string>
+    <string name="confirmation_code_will_be_sent_to_your_mobile_number_enter_the_activation_code">confirmation code will be sent to your mobile number. Enter the activation code</string>
+    <string name="please_select_city_first">please select city first</string>
+    <string name="select_department">Select department</string>
+    <string name="type">Type</string>
+    <string name="worker">Worker</string>
+    <string name="user">User</string>
+    <string name="address">Address</string>
+    <string name="click_ok">click OK</string>
+    <string name="select_my_current">select my current</string>
+    <string name="loading">loading</string>
+    <string name="choose_image_method">Choose image method</string>
+    <string name="please_select_department_first">please select department first</string>
+    <string name="sponsor_phone_number">Sponsor phone number</string>
+    <string name="account_created_successfully_and_waiting_for_confirmation">account created successfully and waiting for confirmation</string>
+    <string name="transfer_receipt">Transfer receipt</string>
+    <string name="see_and_earn">See and earn</string>
+    <string name="no_ads_available">No ads available</string>
+    <string name="sec"> Sec</string>
+    <string name="waiting_for">Waiting for </string>
+    <string name="no_workers_found">No workers found</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="change_password">Change password</string>
+    <string name="wallet">Wallet</string>
+    <string name="change_language">Change language</string>
+    <string name="rate_app">Rate app</string>
+    <string name="share_app">Share app</string>
+    <string name="logout">Logout</string>
+    <string name="let_me_recomment">let me recommend</string>
+    <string name="english">English</string>
+    <string name="ar">عربي</string>
+    <string name="current_balance">Current balance</string>
+    <string name="le">LE</string>
+    <string name="wallet_details">Wallet details</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="save">Save</string>
+
+    <string name="password_changed_Successfully">Password has been changed successfully</string>
+    <string name="old_password_is_required">Old password is required</string>
+    <string name="new_password_is_required">New password is required</string>
+    <string name="confirm_password_is_required">Confirm password is required</string>
+    <string name="password_Not_match">Password does not match</string>
+    <string name="facebook_link">Facebook link</string>
+    <string name="twitter_link">Twitter link</string>
+    <string name="hint_trans">
+        \n تحويل فودافون كاش
+        01025601972
+        \n  فلوس  رصيد عادي اورنج
+        01275998580
+        رصيد عادي
+    </string>
+    <string name="no_workers">No Workers</string>
+    <string name="on_map">On Map</string>
+
+    <string name="My_Refer_Link">My refer link</string>
+    <string name="use_this_link">Use this link</string>
+    <string name="TheModelIsInvalid">The model is invalid</string>
+    <string name="TransferImageIsRequired">Transfer image is required</string>
+    <string name="TheUserNotExistOrDeleted">The user not exist</string>
+    <string name="UserIsDeleted">User is deleted</string>
+    <string name="UserIsPending">User is pending</string>
+    <string name="UserIsRejected">User is rejected</string>
+    <string name="ThisPhoneNumberNotExist">This phone number not exist</string>
+    <string name="YourMoneyInTheWalletNotEnough">Your money in The wallet not enough</string>
+    <string name="TheHelperPhoneNumberNotExist">The helper phone number not exist</string>
+    <string name="TheUsernameOrPasswordIsIncorrect">The username or password is incorrect</string>
+    <string name="TheOldPasswordIsInCorrect">The old password is inCorrect</string>
+    <string name="TheVerificationCodeUnvalid">The verification code invalid</string>
+    <string name="TheCountryNotExistOrDeleted">The country not exist or deleted</string>
+    <string name="TheCityNotExistOrDeleted">The city not exist or deleted</string>
+    <string name="TheDepartmentNotExistOrDeleted">The department not exist or deleted</string>
+    <string name="whats">Whats app number</string>
+    <string name="account_updated_successfully">account updated successfully</string>
+
+
+</resources>
