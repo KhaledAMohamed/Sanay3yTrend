@@ -31,7 +31,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-2593694641695339~3960807021"/>
+            android:value="ca-app-pub-4507788321805708~1531628420"/>
 
         <activity android:name=".ui.activities.workersNoMap.WorkersNoMap"></activity>
         <activity android:name=".ui.activities.profile.Profile" />

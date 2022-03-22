@@ -173,7 +173,7 @@
                         android:background="@color/black"
                         android:backgroundTint="@color/black"
                         app:adSize="BANNER"
-                        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                        app:adUnitId="ca-app-pub-4507788321805708/5422287840"
                         />
 
                     <androidx.appcompat.widget.LinearLayoutCompat
