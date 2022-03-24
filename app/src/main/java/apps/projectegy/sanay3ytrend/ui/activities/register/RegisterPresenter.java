@@ -226,10 +226,15 @@ public class RegisterPresenter {
         if (dialogLoader.isAdded()) {
             dialogLoader.dismiss();
         }
-        if (UserType == 0) {
-            Constant.showSuccessVERFIEDNoClearFlag(context, context.getResources().getString(R.string.account_created_successfully), Verification.class);
-        } else if (UserType == 1) {
-            Constant.showSuccessVERFIEDNoClearFlag(context, context.getResources().getString(R.string.account_created_successfully_and_waiting_for_confirmation), Login.class);
-        }
+//        if (UserType == 0) {
+//            Constant.showSuccessVERFIEDNoClearFlag(context, context.getResources().getString(R.string.account_created_successfully), Verification.class);
+//        }
+//        else if (UserType == 1) {
+//            Constant.showSuccessVERFIEDNoClearFlag(context, context.getResources().getString(R.string.account_created_successfully_and_waiting_for_confirmation), Login.class);
+//
+//        }
+
+        Constant.showSuccessVERFIEDNoClearFlag(context, context.getResources().getString(R.string.account_created_successfully_and_waiting_for_confirmation), Login.class);
+
     }
 }

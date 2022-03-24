@@ -67,10 +67,15 @@ public class LoginPresenter {
                         .subscribeOn(Schedulers.io())
                         .subscribe(this::handleResponse, this::handleError));
 
+                Intent intent = new Intent(context, Home.class);
+                context.startActivity(intent);
+                dialogLoader.dismiss();
+
             }
         } else {
             Constant.showErrorDialog(context, context.getString(R.string.pls_check_connection));
         }
+
 
     }
     /*public void signInWithSocialMedia(LoginWithFBRequest loginWithFBRequest) {
@@ -121,9 +126,11 @@ public class LoginPresenter {
 //        editor.putString(Constant.NotificationsNumber, loginResponseModel.getData().getNotificationsNumber());
         editor.putString(Constant.Password, "");
         editor.apply();
-        Intent intent = new Intent(context, Home.class);
-        context.startActivity(intent);
+//        Intent intent = new Intent(context, Home.class);
+//        context.startActivity(intent);
         ((Activity) context).finish();
+
+//        dialogLoader.dismiss();
 
     }
 
